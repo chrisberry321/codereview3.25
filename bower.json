@@ -4,12 +4,18 @@
   "main": "",
   "moduleType": [],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/chrisberry321/codereview3.25",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "authors": [
+    "chris berry <chrisberry321@yahoo.com>"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
 }
