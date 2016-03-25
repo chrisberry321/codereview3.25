@@ -19,7 +19,7 @@ import { CaloriePipe } from './calorie.pipe';
     </meal-display>
     <edit-meal-details *ngIf="selectedMeal" [meal]="selectedMeal">
     </edit-meal-details>
-    <new-meal></new-meal>
+    <new-meal (onSubmitNewMeal)="createMeal($event)"></new-meal>
   `
 })
 
@@ -34,5 +34,10 @@ export class MealListComponent {
     console.log('child', clickedMeal);
     this.selectedMeal = clickedMeal;
     this.onMealSelect.emit(clickedMeal);
+  }
+  createMeal(name: string): void {
+    this.mealList.push(
+      new Meal(name, details, calories, this.mealList.length)
+    );
   }
 }
