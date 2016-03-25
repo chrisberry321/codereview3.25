@@ -6,17 +6,17 @@
 
 ## Description
 
-This website will create a form where the user can enter a _GitHub_ username and submit it to see names and descriptions of that person's public repositories. All frontend dependencies will be managed with _Bower_, while all other dependencies will use npm.
+This website will create a meal tracker app where the user can log each food that they eat with some details about the meal and the number of calories for that portion. This app will be made using _Angular2_, including multiple components and _TypeScript_ syntax.
 
 ## Setup/Installation Requirements
 
 * Press click here below or copy the link provided below and paste it in your browser.
 
-[Click here](https://chrisberry321.github.io/codereview3.18/)
-https://chrisberry321.github.io/codereview3.18
+[Click here](https://chrisberry321.github.io/codereview3.25/)
+https://chrisberry321.github.io/codereview3.25
 
 1. Clone the repository.
-2. In project folder in Terminal, run $npm init, $npm install, $bower init, $bower install.
+2. In project folder in Terminal, run $npm install, bower install.
 4. Run $gulp build and $gulp serve to begin.
 
 
@@ -29,7 +29,7 @@ If you have any troubles ideas or concerns feel free to contact me at chrisberry
 
 ## Technologies Used
 
-This page focuses on the use of an _API_. _Node_ is used to build write and minifyScripts, also allowing for jsHint. _Bower_ is a package manager that imports _SCSS_ and writes it to the css file.
+This page focuses on the use of an _Angular2_. _TypeScript_ is used to help write cleaner JavaScript. _Bower_ is a package manager that imports _SCSS_ and writes it to the css file.
 
 ### License
 
