@@ -9,9 +9,10 @@ import { EditMealDetailsComponent } from './edit-meal-details.component';
   template: `
     <div class="dropDownDescriptions">
       <h3>{{ meal.name }}</h3>
-      <meal-details *ngif="isSelected">
-        Details: {{ meal.details }} <br>
-        Calories: {{meal.calories}} <br>
+      <meal-details
+       *ngIf="isSelected">
+        details: {{ meal.details }} <br>
+        calories: {{meal.calories}} <br>
         <button (click)="eitMeal(meal)" type="button">Edit Meal</button>
       </meal-details>
       <edit-meal-details
