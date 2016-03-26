@@ -26,5 +26,4 @@ export class NewMealComponent {
     userDetails.value = "";
     userCalories.value = "";
   }
-
 }
